@@ -12,8 +12,8 @@ const Mobile = () => {
               <div className="ppf d-flex justify-content-between p-3">
                 <div className="ppf-img">
                   <img
-                    width={36} height={36}
-                    className="rounded-circle"
+                    width={50} height={50}
+                    className="rounded-circle "
                     src="https://media.licdn.com/dms/image/v2/D4D03AQEflfDxWIQJuA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1713264864535?e=2147483647&v=beta&t=D88Lc9dIIHHIqT4CGH6Umlh7gEz9L6sdw-h3Jg4kRRY"
                     alt=""
                     srcset=""
@@ -36,14 +36,14 @@ const Mobile = () => {
                 </div>
               </div>
 
-              <div class="input p-2">
+              <div class="input search p-2">
                 <div class="input-group form-bg">
                   <span class="input-group-text bg-transparent border-0 text-muted">
                     <i class="bi bi-search"></i>
                   </span>
                   <input
                     type="text"
-                    class="form-control bg-transparent border-0 text-light"
+                    className="form-control bg-transparent border-0 text-light input-cl"
                     placeholder="Search or start a new chat"
                   />
                 </div>

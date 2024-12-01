@@ -63,11 +63,17 @@
 }
 .imege{
   object-fit: cover !important;
-  height: ;
 }
+.input-cl .input-cl::placeholder{
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
 
 .side-element p, .side-element h2 {
   padding: 0px 50px;
   text-align: center;
   color: aliceblue;
+}
+.search input::placeholder, .search i{
+  color: #C4C0C0;
 }
