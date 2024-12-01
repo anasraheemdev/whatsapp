@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.icons .bi{
+    font-size: 22px;
+    color: #919191; 
+    cursor: pointer;
+}
+.ppf{
+    border: 1px solid gray;
+    background-color:#323739;
+}
+.bgcol-2{
+    background-color: #262D31;
+}
+.input{
+    border: 1px solid gray;
+    border-top-width: 0px !important;
+}
+
+.form-bg{
+    background-color: #323739;
+}
+.input div{
+    border-radius: 10px !important;
+    
+}
