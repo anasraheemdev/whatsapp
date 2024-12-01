@@ -1,28 +1,73 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0%;
+  padding: 0%;
 }
-.icons .bi{
-    font-size: 22px;
-    color: #919191; 
-    cursor: pointer;
+.icons .bi {
+  font-size: 22px;
+  color: #919191;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
-.ppf{
-    border: 1px solid gray;
-    background-color:#323739;
+.icons .bi:hover {
+  font-size: 25px;
+  color: #c4c0c0;
 }
-.bgcol-2{
-    background-color: #262D31;
+.ppf {
+  border: 1px solid gray;
+  background-color: #323739;
+  border-width: 0px 0px 1px 0px;
 }
-.input{
-    border: 1px solid gray;
-    border-top-width: 0px !important;
+.bgcol-2 {
+  background-color: #262d31;
+}
+.input {
+  border: 1px solid gray;
+  border-width: 1px 0px 1px 0px;
+  border-top-width: 0px !important;
 }
 
-.form-bg{
-    background-color: #323739;
+.form-bg {
+  background-color: #323739;
 }
-.input div{
-    border-radius: 10px !important;
-    
+.input div {
+  border-radius: 10px !important;
+}
+.form-control:focus {
+  outline: none; /* Removes the blue outline */
+  box-shadow: none; /* Removes any shadow effect */
+}
+
+.red-container {
+  height: 100%; /* Full height of its column */
+  overflow-y: auto; /* Enable vertical scrolling inside the red container */
+  position: relative; /* Confine the red container within its column */
+  background-color: #323739; /* Red background */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none;
+}
+.red-container::-webkit-scrollbar {
+  width: 0;
+}
+
+.red-content {
+  height: 100%;
+  padding: 10px; /* Optional padding for better readability */
+}
+.chats {
+  border: 1px solid #808080;
+  border-width: 0px 0px 1px 0px;
+}
+.justify-content-between {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.imege{
+  object-fit: cover !important;
+  height: ;
+}
+
+.side-element p, .side-element h2 {
+  padding: 0px 50px;
+  text-align: center;
+  color: aliceblue;
 }

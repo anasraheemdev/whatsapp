@@ -1,17 +1,19 @@
 import React from "react";
+import { Data } from "./data";
+import Chats from "./chats";
 
 const Mobile = () => {
   return (
     <>
       <div class="p-0 m-0">
-        <div class="container-fluid bg-dark p-0 m-0 vh-100">
+        <div class="container-fluid bg-dark p-0 m-0 vh-100 overflow-hidden">
           <div class="row h-100  g-0">
-            <div class="col-lg-3">
+            <div class="col-lg-4 position-relative">
               <div className="ppf d-flex justify-content-between p-3">
                 <div className="ppf-img">
                   <img
-                    width={36}
-                    className="rounded-circle "
+                    width={36} height={36}
+                    className="rounded-circle"
                     src="https://media.licdn.com/dms/image/v2/D4D03AQEflfDxWIQJuA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1713264864535?e=2147483647&v=beta&t=D88Lc9dIIHHIqT4CGH6Umlh7gEz9L6sdw-h3Jg4kRRY"
                     alt=""
                     srcset=""
@@ -46,9 +48,38 @@ const Mobile = () => {
                   />
                 </div>
               </div>
+
+              <div className="container-fluid vh-100 red-container px-0">
+                <div className="red-content p-0 ">
+                  {/*  Scrollable content here*/}
+                  {
+                    Data.map((item,index)=>{
+                      return (<Chats {...item}/>)
+                    })
+                  }
+                </div>
+              </div>
             </div>
 
-            <div class="col-lg-9 bgcol-2"></div>
+            <div class="col-lg-8 bgcol-2">
+              <div className="vh-100 p-5 d-flex flex-column align-items-center justify-content-center side-element">
+                <img
+                  width={450}
+                  src="https://naypess.com/wp-content/uploads/2024/02/Whatsapp-Icon-1-300x185.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 className="pt-5">WhatsApp Web</h2>
+                <p>
+                  Send and receive messages without keeping your phone online.
+                  Use WhatsApp on up to 4 linked devices and 1 phone at the same
+                  time.
+                </p>
+                <p className="credits">
+                Built by <a href="https://www.linkedin.com/in/anasraheem/">Anas Raheem</a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
