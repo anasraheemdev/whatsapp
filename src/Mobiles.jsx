@@ -3,7 +3,7 @@ import { Data } from "./data";
 import Chats from "./chats";
 import Side from "./side";
 
-const Mobile = () => {
+const Mobiles = () => {
   return (
     <>
       <div class="p-0 m-0">
@@ -72,4 +72,4 @@ const Mobile = () => {
   );
 };
 
-export default Mobile;
+export default Mobiles;

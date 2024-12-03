@@ -1,11 +1,11 @@
 import React from 'react'
-import Mobile from './mobile'
+import Mobiles from './Mobiles'
 
 
 const App = () => {
   return (
     <>
-    <Mobile/>
+    <Mobiles/>
     </>
 
   )
