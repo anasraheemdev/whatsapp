@@ -1,13 +1,13 @@
 import React from "react";
 
-const Chats = ({name,desc,time,messages,img,id}) => {
+const Chats = ({ name, desc, time, messages, img, id }) => {
   return (
     <>
       <div
         className="container-fluid d-flex align-items-center w-100 chats"
         style={{ backgroundColor: "#212529" }}
       >
-        <div className="card bg-transparent border-0 text-white w-100">
+        <div className="card bg-transparent border-0 text-white w-100 cursor-pointer">
           <div className="card-body d-flex align-items-center justify-content-between">
             <div className="d-flex align-items-center">
               <div className="rounded-circle avatar mx-2">
